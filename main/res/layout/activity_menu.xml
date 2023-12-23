@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitnesshub"
+    tools:context=".activities.Menu">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_bookinglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking List"
+        app:cornerRadius="4dp"
+        android:backgroundTint="@color/teal"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_contactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contac Us"
+        app:cornerRadius="4dp"
+        android:backgroundTint="@color/teal"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bookinglist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
